@@ -2,12 +2,16 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   margin-left: auto;
+  background: #23e8de;
   margin-right: auto;
   width: 620px;
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 20px;
   border: 1px solid ${p => p.theme.colors.accent};
+  -webkit-box-shadow: 1px -3px 39px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -3px 39px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px -3px 39px 0px rgba(0, 0, 0, 0.75);
 `;
 
 export const Title = styled.h2`
@@ -40,6 +44,4 @@ export const Button = styled.button`
 export const BlockNumber = styled.div`
   display: block;
   text-align: center;
-  /* align-content: space-around;
-  flex-direction: column; */
 `;
