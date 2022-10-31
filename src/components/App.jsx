@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import FeedbackOptions from 'components/FeedbackOptions/FeedbackOptions.jsx';
 import Notification from './NotificationMessage/NotificationMessage';
 import Statistics from './Statistics/Statistics';
